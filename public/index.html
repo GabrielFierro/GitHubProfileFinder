@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>GitHub Profile Finder</title>
+		<link href="styles.css" rel="stylesheet" />
+	</head>
+	<body class="text-white text-center bg-primary">
+		<section>
+			<!-- Title and subtitle -->
+			<article>
+				<h1 class="text-3xl my-6 font-archivo font-bold mx-6">
+					Welcome to the GitHub Profile Finder
+				</h1>
+				<p class="text-lg font-roboto font-normal mx-8">
+					This search engine will help you find profiles quickly just by knowing
+					the user. Use the GitHub API to get the profile information.
+				</p>
+			</article>
+			<!-- Beginning of the card -->
+			<div
+				class="mx-7 sm:mx-16 md:mx-12 lg:mx-24 w-10/12 h-64 sm:h-24 lg:h-20 rounded-lg bg-secondary flex flex-col sm:flex-row justify-around my-8 py-4 sm:py-8"
+			>
+				<div class="flex flex-col justify-center sm:flex-row">
+					<label
+						for="user"
+						class="px-2 text-xl font-roboto font-normal md:text-left"
+						>User:</label
+					>
+					<input
+						id="user"
+						class="w-10/12 sm:w-48 md:w-56 lg:w-48 h-12 sm:h-6 rounded-sm bg-terciary text-xl sm:text-lg pl-2 mt-4 sm:mt-0 ml-7 sm:ml-0"
+						name="user"
+						placeholder="Type user..."
+						type="text"
+					/>
+				</div>
+				<div>
+					<button
+						class="w-40 h-14 sm:h-10 sm:-mt-6 md:-mt-2 bg-quaternary shadow-lg rounded-md text-xl text-black font-roboto font-normal"
+					>
+						Search Profile
+					</button>
+				</div>
+			</div>
+			<!-- Ending of the card -->
+		</section>
+		<footer class="text-xl font-roboto font-normal mb-4">
+			Made by Gabriel Fierro
+		</footer>
+	</body>
+</html>
