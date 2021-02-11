@@ -21,13 +21,13 @@
 			</article>
 			<!-- Beginning of the card -->
 			<div
-				class="mx-7 sm:mx-16 md:mx-12 lg:mx-24 w-10/12 h-64 sm:h-24 lg:h-20 rounded-lg bg-secondary flex flex-col sm:flex-row justify-around my-8 py-4 sm:py-8"
+				class="mx-7 sm:mx-16 md:mx-12 lg:mx-24 w-10/12 h-64 sm:h-24 lg:h-20 rounded-lg bg-secondary flex flex-col sm:flex-row justify-around my-6 py-4 sm:py-8"
 			>
 				<div class="flex flex-col justify-center sm:flex-row">
 					<label
 						for="user"
 						class="px-2 text-xl font-roboto font-normal md:text-left"
-						>User:</label
+						>Username:</label
 					>
 					<input
 						id="user"
@@ -46,8 +46,44 @@
 				</div>
 			</div>
 			<!-- Ending of the card -->
+
+			<!-- Beginning of the profile card -->
+			<div
+				class="w-10/12 h-54 flex rounded-lg bg-secondary mx-24 my-6 py-4 px-8"
+			>
+				<!-- Image -->
+				<div>
+					<img
+						alt="Github profile"
+						class="w-40 h-40 rounded-full ml-48"
+						src="../images/github-profile.png"
+					/>
+				</div>
+				<!-- Description -->
+				<section
+					class="w-10/12 ml-48 flex flex-col text-left text-base font-roboto font-normal justify-around"
+				>
+					<label class="" for="name">Name: Gabriel Fierro</label>
+					<label class="" for="bio"
+						>Biography: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Hic rem cupiditate dolore earum sapiente ipsa rerum voluptas
+						deleniti. Temporibus deserunt ipsam aut ab dignissimos dolore cumque
+						deleniti officia laboriosam quis.</label
+					>
+					<label class="" for="repositories">Repositories: 5</label>
+				</section>
+			</div>
+			<!-- Ending of the profile card -->
+
+			<!-- Beginning of the error card-->
+			<section
+				class="w-10/12 h-54 rounded-lg bg-secondary text-center mx-24 my-2 py-6 px-8"
+			>
+				<h1 class="text-3xl font-archivo font-bold">Error 404 not found</h1>
+				<p class="text-lg font-roboto font-normal">Try another username</p>
+			</section>
 		</section>
-		<footer class="text-xl font-roboto font-normal mb-4">
+		<footer class="text-lg font-roboto font-normal mb-4">
 			Made by Gabriel Fierro
 		</footer>
 	</body>
