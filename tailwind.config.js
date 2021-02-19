@@ -4,10 +4,10 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				primary: "#071e3d",
-				secondary: "#182952",
-				terciary: "#2b3595",
-				quaternary: "#21e6c1",
+				primary: "#212529",
+				secondary: "#343a40",
+				terciary: "#495057",
+				quaternary: "#F9F9F9",
 			},
 			fontFamily: {
 				montserrat: ["Montserrat"],
