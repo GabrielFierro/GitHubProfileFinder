@@ -31893,8 +31893,7 @@ video {
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 button:hover {
-  background: #4bffde;
-  color: #071e3d;
+  background: #33e1e4;
 }
 
 @media (min-width: 640px) {
