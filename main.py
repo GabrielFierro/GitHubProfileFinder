@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, redirect, url_for
-from requestApi import Consulta
+from requestAPI import Consulta
 import requests
 import forms
 
@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route('/', methods=['GET', 'POST'])
 def index():
     input_form = forms.InputForm(request.form)
-    
+
     if request.method == 'POST':
         username = input_form.username.data
         return redirect(url_for('user', name=username))
