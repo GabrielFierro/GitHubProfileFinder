@@ -13,4 +13,4 @@ You can find more information about this project here on the exercise [Flask](ht
 
 ## Demo
 
-You can see the demo about this project in the next link [GitHubProfileFinder](https://gabrielfierro.github.io/GithubProfileFinder/public/)
+You can see the demo about this project in the next link [GitHubProfileFinder](https://github-profile-finder-gabrielfierro.vercel.app/)
